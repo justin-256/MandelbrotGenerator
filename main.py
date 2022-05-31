@@ -65,7 +65,7 @@ num_cols = int((cnvs_x_end - cnvs_x_start)/cnvs_ittr)
 print("Starting render of mandelbrot") #print info
 print("Resolution: {} x {}\n".format(num_cols, num_rows))
 
-while __name__ == "__main__":
+if __name__ == "__main__":
     with tqdm(total=(cnvs_y_end-cnvs_y_start)/cnvs_ittr, desc="Progress", bar_format="{l_bar}{bar}| Col {n_fmt} of {total_fmt} [{elapsed}<{remaining}]", leave=False) as pbar: #start progress bar
         if greyscale == True:
             row = 0
