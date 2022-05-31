@@ -1,0 +1,20 @@
+{
+"_comment": "Generation options"
+,"thres": 100
+,"max_ittr": 100
+,"hue_offset": 0
+
+,"equationMax": 100
+,"equationMin": 0
+
+,"greyscale": true
+
+,"_comment": "Canvas options"
+,"cnvs_x_start": -3
+,"cnvs_x_end": 1.5
+
+,"cnvs_y_start": -1.5
+,"cnvs_y_end": 1.5
+
+,"cnvs_ittr": 0.005
+}
